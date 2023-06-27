@@ -1,0 +1,35 @@
+.btn {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+  }
+  .btn:hover {
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+  }
+  .title {
+    color: #0a0a0a;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(
+      120deg,
+      #1c99fe 20.69%,
+      #7644ff 50.19%,
+      #fd4766 79.69%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
